@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <JSON/JSON.h>
+//#import <JSON/JSON.h>
+#import "DisplayJSON.h"
+#import <HTTPRiot/HTTPRiot.h>
 
 @interface AppDelegate_Phone : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	DisplayJSON *displayView;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

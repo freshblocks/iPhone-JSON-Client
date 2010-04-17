@@ -15,6 +15,10 @@
 		2860E32E111B888700E27156 /* AppDelegate_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_Pad.m */; };
 		2860E32F111B888700E27156 /* MainWindow_Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_Pad.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		7009F48D1171580D007DAA80 /* DisplayJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7009F48B1171580D007DAA80 /* DisplayJSON.m */; };
+		7009F48E1171580D007DAA80 /* DisplayJSON.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7009F48C1171580D007DAA80 /* DisplayJSON.xib */; };
+		7009F540117173B4007DAA80 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 7009F53F117173B4007DAA80 /* Contact.m */; };
+		7009F5551172ADA9007DAA80 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7009F5541172ADA9007DAA80 /* 2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,12 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iPhone_JSON_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhone_JSON_Prefix.pch; sourceTree = "<group>"; };
+		7009F48A1171580D007DAA80 /* DisplayJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayJSON.h; sourceTree = "<group>"; };
+		7009F48B1171580D007DAA80 /* DisplayJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayJSON.m; sourceTree = "<group>"; wrapsLines = 1; };
+		7009F48C1171580D007DAA80 /* DisplayJSON.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayJSON.xib; sourceTree = "<group>"; };
+		7009F53E117173B4007DAA80 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		7009F53F117173B4007DAA80 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		7009F5541172ADA9007DAA80 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.json; sourceTree = "<group>"; wrapsLines = 1; };
 		8D1107310486CEB800E47090 /* iPhone_JSON-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone_JSON-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +71,11 @@
 				2860E325111B887F00E27156 /* AppDelegate_Phone.h */,
 				2860E326111B887F00E27156 /* AppDelegate_Phone.m */,
 				2860E327111B887F00E27156 /* MainWindow_Phone.xib */,
+				7009F48A1171580D007DAA80 /* DisplayJSON.h */,
+				7009F48B1171580D007DAA80 /* DisplayJSON.m */,
+				7009F48C1171580D007DAA80 /* DisplayJSON.xib */,
+				7009F53E117173B4007DAA80 /* Contact.h */,
+				7009F53F117173B4007DAA80 /* Contact.m */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -99,6 +114,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				7009F5541172ADA9007DAA80 /* 2.json */,
 				32CA4F630368D1EE00C91783 /* iPhone_JSON_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -159,6 +175,8 @@
 			files = (
 				2860E329111B887F00E27156 /* MainWindow_Phone.xib in Resources */,
 				2860E32F111B888700E27156 /* MainWindow_Pad.xib in Resources */,
+				7009F48E1171580D007DAA80 /* DisplayJSON.xib in Resources */,
+				7009F5551172ADA9007DAA80 /* 2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +190,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				2860E328111B887F00E27156 /* AppDelegate_Phone.m in Sources */,
 				2860E32E111B888700E27156 /* AppDelegate_Pad.m in Sources */,
+				7009F48D1171580D007DAA80 /* DisplayJSON.m in Sources */,
+				7009F540117173B4007DAA80 /* Contact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,27 +201,22 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADDITIONAL_SDKS = "$HOME/Library/SDKs/JSON/${PLATFORM_NAME}.sdk";
+				ADDITIONAL_SDKS = "$HOME/Library/SDKs/httpriot/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/JSON\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iPhone_JSON_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "iPhone_JSON-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/JSON/SDKs/JSON/iphoneos.sdk/usr/local/lib\"",
-					"\"$(SRCROOT)/JSON/SDKs/JSON/iphonesimulator.sdk/usr/local/lib\"",
-					"\"$(SRCROOT)/JSON/SDKs/JSON/macosx.sdk/usr/local/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
-					"-ljson",
+					"-lhttpriot",
+					"-lxml2",
+					"-all_load",
 				);
 				PRODUCT_NAME = "iPhone JSON";
 				SDKROOT = iphonesimulator3.1.3;
@@ -211,25 +226,20 @@
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADDITIONAL_SDKS = "$HOME/Library/SDKs/JSON/${PLATFORM_NAME}.sdk";
+				ADDITIONAL_SDKS = "$HOME/Library/SDKs/httpriot/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/JSON\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iPhone_JSON_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "iPhone_JSON-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/JSON/SDKs/JSON/iphoneos.sdk/usr/local/lib\"",
-					"\"$(SRCROOT)/JSON/SDKs/JSON/iphonesimulator.sdk/usr/local/lib\"",
-					"\"$(SRCROOT)/JSON/SDKs/JSON/macosx.sdk/usr/local/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
-					"-ljson",
+					"-lhttpriot",
+					"-lxml2",
+					"-all_load",
 				);
 				PRODUCT_NAME = "iPhone JSON";
 				SDKROOT = iphonesimulator3.1.3;

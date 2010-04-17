@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate_Pad.h"
-#import <JSON/JSON.h>
+
 @implementation AppDelegate_Pad
 
 @synthesize window;
