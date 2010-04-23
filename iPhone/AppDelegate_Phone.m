@@ -7,30 +7,38 @@
 //
 
 #import "AppDelegate_Phone.h"
-#import "DisplayJSON.h"
 
 @implementation AppDelegate_Phone
 
-@synthesize window;
+@synthesize window, _tabBar, _contacts;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
     // Override point for customization after application launch
-	//[HRRestModel setBaseURL:[NSURL URLWithString:@"http://iphone-json.appspot.com"]];
-	[HRRestModel setBaseURL:[NSURL URLWithString:@"http://localhost:8080"]];
-	//[HRRestModel setFormat:HRDataFormatXML]; //HRDataFormatJSON
+	
+	NSString * bURL = [[NSUserDefaults standardUserDefaults] stringForKey:@"baseURL"];
+	NSLog(@"base: %@",bURL);
+	if (bURL == NULL) {
+		bURL = @"http://iphone-json.appspot.com";
+		[[NSUserDefaults standardUserDefaults] setValue:bURL forKey:@"baseURL"];
+		[[NSUserDefaults standardUserDefaults] setValue:@"/contacts" forKey:@"path"];
+		//[[NSUserDefaults standardUserDefaults] setValue:@"JSON" forKey:@"format"];
+	}
+	
+	[HRRestModel setBaseURL:[NSURL URLWithString:bURL]];
+	//[HRRestModel setFormat:HRDataFormatXML];
 	[HRRestModel setFormat:HRDataFormatJSON];
-	displayView = [[DisplayJSON alloc] initWithNibName:@"DisplayJSON" bundle:nil];
-	[window addSubview:displayView.view];
-    [window makeKeyAndVisible];
+
+	[window addSubview:_tabBar.view];
+	[window makeKeyAndVisible];
 	
 	return YES;
 }
 
-
 - (void)dealloc {
-	[displayView release];
+	[_contacts release];
+	[_tabBar release];
     [window release];
     [super dealloc];
 }

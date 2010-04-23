@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import <JSON/JSON.h>
-#import "DisplayJSON.h"
 #import <HTTPRiot/HTTPRiot.h>
 
 @interface AppDelegate_Phone : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-	DisplayJSON *displayView;
+	UIWindow *window;
+	UITabBarController *_tabBar;
+	NSMutableArray *_contacts;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UITabBarController *_tabBar;
+@property (nonatomic, retain) NSMutableArray *_contacts;
 
 @end
 

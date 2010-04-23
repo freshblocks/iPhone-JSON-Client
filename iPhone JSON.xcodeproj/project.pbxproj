@@ -12,13 +12,31 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2860E328111B887F00E27156 /* AppDelegate_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_Phone.m */; };
 		2860E329111B887F00E27156 /* MainWindow_Phone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_Phone.xib */; };
-		2860E32E111B888700E27156 /* AppDelegate_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_Pad.m */; };
-		2860E32F111B888700E27156 /* MainWindow_Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_Pad.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		7009F48D1171580D007DAA80 /* DisplayJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7009F48B1171580D007DAA80 /* DisplayJSON.m */; };
-		7009F48E1171580D007DAA80 /* DisplayJSON.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7009F48C1171580D007DAA80 /* DisplayJSON.xib */; };
-		7009F540117173B4007DAA80 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 7009F53F117173B4007DAA80 /* Contact.m */; };
-		7009F5551172ADA9007DAA80 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7009F5541172ADA9007DAA80 /* 2.json */; };
+		7006A5B91180EE39008E7A36 /* ContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7006A5B71180EE39008E7A36 /* ContactController.m */; };
+		7006A5BA1180EE39008E7A36 /* ContactView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7006A5B81180EE39008E7A36 /* ContactView.xib */; };
+		7006A63A118101F6008E7A36 /* SettingEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7006A638118101F6008E7A36 /* SettingEditorController.m */; };
+		7006A63B118101F6008E7A36 /* SettingEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7006A639118101F6008E7A36 /* SettingEditorView.xib */; };
+		7006A6B811810BAC008E7A36 /* ContactEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7006A6B711810BAC008E7A36 /* ContactEditor.xib */; };
+		703412F6118022A400D11B93 /* icon_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 703412F5118022A300D11B93 /* icon_delete.png */; };
+		705CAC8511825D6D0011E1AB /* appengine_ruby-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 705CAC8411825D6D0011E1AB /* appengine_ruby-icon.png */; };
+		709F30AE117FA4E9002A6703 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 709F30AD117FA4E9002A6703 /* 20-gear2.png */; };
+		709F30B5117FA750002A6703 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709F30B3117FA750002A6703 /* SettingsController.m */; };
+		709F30B6117FA750002A6703 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 709F30B4117FA750002A6703 /* SettingsView.xib */; };
+		70C59EF1117F906D008326AE /* get.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C59EEE117F906C008326AE /* get.png */; };
+		70C59EF2117F906D008326AE /* post.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C59EEF117F906D008326AE /* post.png */; };
+		70C59EF3117F906D008326AE /* put.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C59EF0117F906D008326AE /* put.png */; };
+		70C59F23117F951B008326AE /* GetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C59F21117F951B008326AE /* GetController.m */; };
+		70C59F24117F951B008326AE /* GetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C59F22117F951B008326AE /* GetView.xib */; };
+		70C59F28117F952E008326AE /* PutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C59F26117F952E008326AE /* PutController.m */; };
+		70C59F29117F952E008326AE /* PutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C59F27117F952E008326AE /* PutView.xib */; };
+		70C59F2D117F9543008326AE /* PostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C59F2B117F9543008326AE /* PostController.m */; };
+		70C59F2E117F9543008326AE /* PostView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C59F2C117F9543008326AE /* PostView.xib */; };
+		70C59F32117F9573008326AE /* DeleteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C59F30117F9573008326AE /* DeleteController.m */; };
+		70C59F33117F9573008326AE /* DeleteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C59F31117F9573008326AE /* DeleteView.xib */; };
+		70C59F49117F97D7008326AE /* ROR-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70C59F48117F97D7008326AE /* ROR-Logo.png */; };
+		70C6E7761181384F00C0221D /* ContactEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6E7751181384F00C0221D /* ContactEditorController.m */; };
+		70C6E86B11817F6500C0221D /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C6E86A11817F6500C0221D /* Contacts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,18 +46,43 @@
 		2860E325111B887F00E27156 /* AppDelegate_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Phone.h; sourceTree = "<group>"; };
 		2860E326111B887F00E27156 /* AppDelegate_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Phone.m; sourceTree = "<group>"; };
 		2860E327111B887F00E27156 /* MainWindow_Phone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_Phone.xib; sourceTree = "<group>"; };
-		2860E32B111B888700E27156 /* AppDelegate_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Pad.h; sourceTree = "<group>"; };
-		2860E32C111B888700E27156 /* AppDelegate_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Pad.m; sourceTree = "<group>"; };
-		2860E32D111B888700E27156 /* MainWindow_Pad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_Pad.xib; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iPhone_JSON_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhone_JSON_Prefix.pch; sourceTree = "<group>"; };
-		7009F48A1171580D007DAA80 /* DisplayJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayJSON.h; sourceTree = "<group>"; };
-		7009F48B1171580D007DAA80 /* DisplayJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayJSON.m; sourceTree = "<group>"; wrapsLines = 1; };
-		7009F48C1171580D007DAA80 /* DisplayJSON.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayJSON.xib; sourceTree = "<group>"; };
-		7009F53E117173B4007DAA80 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
-		7009F53F117173B4007DAA80 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
-		7009F5541172ADA9007DAA80 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.json; sourceTree = "<group>"; wrapsLines = 1; };
+		7006A5B61180EE39008E7A36 /* ContactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactController.h; sourceTree = "<group>"; };
+		7006A5B71180EE39008E7A36 /* ContactController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactController.m; sourceTree = "<group>"; };
+		7006A5B81180EE39008E7A36 /* ContactView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactView.xib; sourceTree = "<group>"; };
+		7006A637118101F6008E7A36 /* SettingEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingEditorController.h; sourceTree = "<group>"; };
+		7006A638118101F6008E7A36 /* SettingEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingEditorController.m; sourceTree = "<group>"; };
+		7006A639118101F6008E7A36 /* SettingEditorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingEditorView.xib; sourceTree = "<group>"; };
+		7006A6B711810BAC008E7A36 /* ContactEditor.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactEditor.xib; sourceTree = "<group>"; };
+		703412F5118022A300D11B93 /* icon_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_delete.png; sourceTree = "<group>"; };
+		705CAC8411825D6D0011E1AB /* appengine_ruby-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appengine_ruby-icon.png"; sourceTree = "<group>"; };
+		709F30AD117FA4E9002A6703 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		709F30B2117FA750002A6703 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		709F30B3117FA750002A6703 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		709F30B4117FA750002A6703 /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		70C59EEE117F906C008326AE /* get.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = get.png; sourceTree = "<group>"; };
+		70C59EEF117F906D008326AE /* post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = post.png; sourceTree = "<group>"; };
+		70C59EF0117F906D008326AE /* put.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = put.png; sourceTree = "<group>"; };
+		70C59F20117F951B008326AE /* GetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetController.h; sourceTree = "<group>"; };
+		70C59F21117F951B008326AE /* GetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		70C59F22117F951B008326AE /* GetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GetView.xib; sourceTree = "<group>"; };
+		70C59F25117F952E008326AE /* PutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PutController.h; sourceTree = "<group>"; };
+		70C59F26117F952E008326AE /* PutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PutController.m; sourceTree = "<group>"; };
+		70C59F27117F952E008326AE /* PutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PutView.xib; sourceTree = "<group>"; };
+		70C59F2A117F9543008326AE /* PostController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostController.h; sourceTree = "<group>"; };
+		70C59F2B117F9543008326AE /* PostController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		70C59F2C117F9543008326AE /* PostView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostView.xib; sourceTree = "<group>"; };
+		70C59F2F117F9573008326AE /* DeleteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteController.h; sourceTree = "<group>"; };
+		70C59F30117F9573008326AE /* DeleteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteController.m; sourceTree = "<group>"; };
+		70C59F31117F9573008326AE /* DeleteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteView.xib; sourceTree = "<group>"; };
+		70C59F48117F97D7008326AE /* ROR-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ROR-Logo.png"; sourceTree = "<group>"; };
+		70C6E7741181384F00C0221D /* ContactEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactEditorController.h; sourceTree = "<group>"; };
+		70C6E7751181384F00C0221D /* ContactEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactEditorController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		70C6E86911817F6500C0221D /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		70C6E86A11817F6500C0221D /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		70C6E86C11817F9700C0221D /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iPhone_JSON-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone_JSON-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,42 +111,36 @@
 		2860E324111B887F00E27156 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				70C59F0D117F94AE008326AE /* Model */,
+				70C59F0E117F94B5008326AE /* View */,
+				70C59F0F117F94BC008326AE /* Controller */,
 				2860E325111B887F00E27156 /* AppDelegate_Phone.h */,
 				2860E326111B887F00E27156 /* AppDelegate_Phone.m */,
 				2860E327111B887F00E27156 /* MainWindow_Phone.xib */,
-				7009F48A1171580D007DAA80 /* DisplayJSON.h */,
-				7009F48B1171580D007DAA80 /* DisplayJSON.m */,
-				7009F48C1171580D007DAA80 /* DisplayJSON.xib */,
-				7009F53E117173B4007DAA80 /* Contact.h */,
-				7009F53F117173B4007DAA80 /* Contact.m */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
 		};
-		2860E32A111B888700E27156 /* iPad */ = {
+		28EEBF621118D79A00187D67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2860E32B111B888700E27156 /* AppDelegate_Pad.h */,
-				2860E32C111B888700E27156 /* AppDelegate_Pad.m */,
-				2860E32D111B888700E27156 /* MainWindow_Pad.xib */,
-			);
-			path = iPad;
-			sourceTree = "<group>";
-		};
-		28EEBF621118D79A00187D67 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
+				705CAC8411825D6D0011E1AB /* appengine_ruby-icon.png */,
+				703412F5118022A300D11B93 /* icon_delete.png */,
+				709F30AD117FA4E9002A6703 /* 20-gear2.png */,
+				70C59F48117F97D7008326AE /* ROR-Logo.png */,
+				70C59EEE117F906C008326AE /* get.png */,
+				70C59EEF117F906D008326AE /* post.png */,
+				70C59EF0117F906D008326AE /* put.png */,
 				8D1107310486CEB800E47090 /* iPhone_JSON-Info.plist */,
 			);
-			name = Shared;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				2860E32A111B888700E27156 /* iPad */,
 				2860E324111B887F00E27156 /* iPhone */,
-				28EEBF621118D79A00187D67 /* Shared */,
+				28EEBF621118D79A00187D67 /* Resources */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -114,7 +151,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7009F5541172ADA9007DAA80 /* 2.json */,
 				32CA4F630368D1EE00C91783 /* iPhone_JSON_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -129,6 +165,94 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7006A56E1180E316008E7A36 /* Get */ = {
+			isa = PBXGroup;
+			children = (
+				70C59F20117F951B008326AE /* GetController.h */,
+				70C59F21117F951B008326AE /* GetController.m */,
+				7006A5B61180EE39008E7A36 /* ContactController.h */,
+				7006A5B71180EE39008E7A36 /* ContactController.m */,
+			);
+			name = Get;
+			sourceTree = "<group>";
+		};
+		7006A56F1180E320008E7A36 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				70C59F2A117F9543008326AE /* PostController.h */,
+				70C59F2B117F9543008326AE /* PostController.m */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		7006A5701180E329008E7A36 /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				70C59F2F117F9573008326AE /* DeleteController.h */,
+				70C59F30117F9573008326AE /* DeleteController.m */,
+			);
+			name = Delete;
+			sourceTree = "<group>";
+		};
+		7006A5711180E32E008E7A36 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				709F30B2117FA750002A6703 /* SettingsController.h */,
+				709F30B3117FA750002A6703 /* SettingsController.m */,
+				7006A637118101F6008E7A36 /* SettingEditorController.h */,
+				7006A638118101F6008E7A36 /* SettingEditorController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		7006A5721180E338008E7A36 /* Put */ = {
+			isa = PBXGroup;
+			children = (
+				70C59F25117F952E008326AE /* PutController.h */,
+				70C59F26117F952E008326AE /* PutController.m */,
+				70C6E7741181384F00C0221D /* ContactEditorController.h */,
+				70C6E7751181384F00C0221D /* ContactEditorController.m */,
+			);
+			name = Put;
+			sourceTree = "<group>";
+		};
+		70C59F0D117F94AE008326AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70C6E86C11817F9700C0221D /* SynthesizeSingleton.h */,
+				70C6E86911817F6500C0221D /* Contacts.h */,
+				70C6E86A11817F6500C0221D /* Contacts.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		70C59F0E117F94B5008326AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				709F30B4117FA750002A6703 /* SettingsView.xib */,
+				70C59F22117F951B008326AE /* GetView.xib */,
+				70C59F27117F952E008326AE /* PutView.xib */,
+				70C59F2C117F9543008326AE /* PostView.xib */,
+				70C59F31117F9573008326AE /* DeleteView.xib */,
+				7006A5B81180EE39008E7A36 /* ContactView.xib */,
+				7006A639118101F6008E7A36 /* SettingEditorView.xib */,
+				7006A6B711810BAC008E7A36 /* ContactEditor.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		70C59F0F117F94BC008326AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7006A56F1180E320008E7A36 /* Post */,
+				7006A56E1180E316008E7A36 /* Get */,
+				7006A5721180E338008E7A36 /* Put */,
+				7006A5701180E329008E7A36 /* Delete */,
+				7006A5711180E32E008E7A36 /* Settings */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,9 +298,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				2860E329111B887F00E27156 /* MainWindow_Phone.xib in Resources */,
-				2860E32F111B888700E27156 /* MainWindow_Pad.xib in Resources */,
-				7009F48E1171580D007DAA80 /* DisplayJSON.xib in Resources */,
-				7009F5551172ADA9007DAA80 /* 2.json in Resources */,
+				70C59EF1117F906D008326AE /* get.png in Resources */,
+				70C59EF2117F906D008326AE /* post.png in Resources */,
+				70C59EF3117F906D008326AE /* put.png in Resources */,
+				70C59F24117F951B008326AE /* GetView.xib in Resources */,
+				70C59F29117F952E008326AE /* PutView.xib in Resources */,
+				70C59F2E117F9543008326AE /* PostView.xib in Resources */,
+				70C59F33117F9573008326AE /* DeleteView.xib in Resources */,
+				70C59F49117F97D7008326AE /* ROR-Logo.png in Resources */,
+				709F30AE117FA4E9002A6703 /* 20-gear2.png in Resources */,
+				709F30B6117FA750002A6703 /* SettingsView.xib in Resources */,
+				703412F6118022A400D11B93 /* icon_delete.png in Resources */,
+				7006A5BA1180EE39008E7A36 /* ContactView.xib in Resources */,
+				7006A63B118101F6008E7A36 /* SettingEditorView.xib in Resources */,
+				7006A6B811810BAC008E7A36 /* ContactEditor.xib in Resources */,
+				705CAC8511825D6D0011E1AB /* appengine_ruby-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,9 +325,15 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				2860E328111B887F00E27156 /* AppDelegate_Phone.m in Sources */,
-				2860E32E111B888700E27156 /* AppDelegate_Pad.m in Sources */,
-				7009F48D1171580D007DAA80 /* DisplayJSON.m in Sources */,
-				7009F540117173B4007DAA80 /* Contact.m in Sources */,
+				70C59F23117F951B008326AE /* GetController.m in Sources */,
+				70C59F28117F952E008326AE /* PutController.m in Sources */,
+				70C59F2D117F9543008326AE /* PostController.m in Sources */,
+				70C59F32117F9573008326AE /* DeleteController.m in Sources */,
+				709F30B5117FA750002A6703 /* SettingsController.m in Sources */,
+				7006A5B91180EE39008E7A36 /* ContactController.m in Sources */,
+				7006A63A118101F6008E7A36 /* SettingEditorController.m in Sources */,
+				70C6E7761181384F00C0221D /* ContactEditorController.m in Sources */,
+				70C6E86B11817F6500C0221D /* Contacts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +399,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos3.1.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -273,8 +415,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos3.1.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
